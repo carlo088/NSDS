@@ -16,3 +16,13 @@ sudo systemctl status kafka
 docker compose up
 ```
 if port :9092 is occupied (check with ```sudo lsof -i .:9092```), just ```kill $PID$```
+
+Then, move to root folder and build the maven project with
+```
+mvn clean install
+```
+To compile java
+```
+mvn exec:java -Dexec.mainClass="it.polimi.middleware.kafka.basic.BasicProducer"
+mvn exec:java -Dexec.mainClass="it.polimi.middleware.kafka.basic.BasicConsumer"
+```
