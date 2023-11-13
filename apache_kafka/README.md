@@ -1,4 +1,5 @@
 To launch Zookeeper and Kafka one has two options:
+
 1.
 ```
 sudo systemctl enable zookeeper
