@@ -15,6 +15,7 @@ sudo systemctl status kafka
 ```
 docker compose up
 ```
+
 Then, move to root folder and build the maven project with
 ```
 mvn clean install
