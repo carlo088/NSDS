@@ -15,7 +15,7 @@ sudo systemctl status kafka
 ```
 docker compose up
 ```
-(Port 9092 may be occupied by Java, in this case ```kill $PID$```)
+(port 9092 may be occupied by Java, in this case ```kill $PID$```)
 
 Then, move to root folder and build the maven project with
 ```
