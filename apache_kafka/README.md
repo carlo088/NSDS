@@ -15,3 +15,12 @@ sudo systemctl status kafka
 ```
 docker compose up
 ```
+Then, move to root folder and build the maven project with
+```
+mvn clean install
+```
+To compile java
+```
+mvn exec:java -Dexec.mainClass="it.polimi.middleware.kafka.basic.BasicProducer"
+mvn exec:java -Dexec.mainClass="it.polimi.middleware.kafka.basic.BasicConsumer"
+```
