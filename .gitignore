@@ -1,3 +1,5 @@
 apache_kafka/kafka
 *.pdf
 *.mp4
+.vscode
+apache_kafka/NSDS_kafka_tutorial/target
