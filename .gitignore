@@ -3,3 +3,4 @@ apache_kafka/kafka
 *.mp4
 .vscode
 apache_kafka/NSDS_kafka_tutorial/target
+*.DS_Store
