@@ -8,7 +8,6 @@ import java.util.concurrent.Executors;
 
 import akka.actor.ActorRef;
 import akka.actor.ActorSystem;
-import akka.actor.Props;
 
 public class Counter {
 
