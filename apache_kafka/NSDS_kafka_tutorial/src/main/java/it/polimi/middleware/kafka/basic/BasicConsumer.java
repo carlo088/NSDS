@@ -22,6 +22,7 @@ public class BasicConsumer {
     public static void main(String[] args) {
         // If there are arguments, use the first as group and the second as topic.
         // Otherwise, use default group and topic.
+        System.out.println("ciao");
         String groupId = args.length >= 1 ? args[0] : defaultGroupId;
         String topic = args.length >= 2 ? args[1] : defaultTopic;
 
